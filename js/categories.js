@@ -32,7 +32,7 @@ class Categories {
 				console.log(data);
 				$(data).each(function (index, product) {
 					$(".breadcrumb").html(
-						'<a href="/">Home</a> <span class="sep">></span> ' +
+						'<a href="/index.html">Home</a> <span class="sep">></span> ' +
 							toTitleCase(product.category)
 					);
 					$(".category-name").html(toTitleCase(product.category));

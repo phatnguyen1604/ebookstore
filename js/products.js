@@ -32,7 +32,7 @@ class Products {
 			url: this.apiUrl + "products/" + id,
 			success: function (data) {
 				$(".breadcrumb").html(
-					'<a href="/">Home</a><span class="sep">></span><a href="/category.html?category=' +
+					'<a href="/index.html">Home</a><span class="sep">></span><a href="/category.html?category=' +
 						data.category +
 						'">' +
 						toTitleCase(data.category) +
